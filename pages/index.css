@@ -105,23 +105,23 @@
   box-sizing: border-box;
 }
 
-.header__footer_column_content_hours {
+.header__footer_column_hours {
   color: #838383;
   justify-content: flex-start;
+  column-gap: none;
+  flex-direction: column;
   margin-left: 80px;
   margin-bottom: 40px;
 }
 
-.header__footer_list {
-  color: #838383;
-}
-.header__footer_list-item {
+.header__footer_column_hours_item {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  margin: 0;
 }
 
 .header__link {
@@ -180,14 +180,14 @@
   height: 323px;
 }
 
-.video__item {
+.recipes__video-item {
   display: flex;
   flex-direction: column;
   width: 480px;
   height: 323px;
 }
 
-.iframe {
+.recipes__iframe {
   width: 480px;
   height: 273px;
   margin-bottom: 24px;
