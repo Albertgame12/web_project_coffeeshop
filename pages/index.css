@@ -30,8 +30,8 @@
   width: 105px;
   height: 39px;
   position: relative;
-  margin-top: 30px;
-  margin-left: 30px;
+  top: 30px;
+  left: 30px;
   margin-bottom: 183px;
 }
 
@@ -92,8 +92,8 @@
 .header__image {
   width: 646px;
   height: 568px;
-  margin: 124px;
-  margin-right: 5px;
+  top: 124px;
+  right: 5px;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -107,8 +107,8 @@
   display: flex;
   position: absolute;
   flex-direction: column;
-  margin-left: 80px;
-  margin-bottom: 40px;
+  left: 80px;
+  bottom: 40px;
 }
 
 .header__paragraph {
@@ -130,8 +130,8 @@
   position: absolute;
   display: flex;
   margin-top: auto;
-  margin-right: 80px;
-  margin-bottom: 20px;
+  right: 80px;
+  bottom: 20px;
 }
 
 .recipes {
